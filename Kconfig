@@ -1,0 +1,7 @@
+menu "LEAF"
+    config ENABLE_LEAF
+        bool "Enable LEAF"
+        default y
+        help
+            Enable support for LEAF.
+endmenu

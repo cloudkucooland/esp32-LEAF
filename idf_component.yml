@@ -1,0 +1,7 @@
+dependencies:
+  idf: '>=4.3'
+description: IDF Wrapper for LEAF
+issues: https://github.com/cloudkucooland/esp32-LEAF/issues
+repository: git://github.com/cloudkucooland/esp32-LEAF.git
+url: https://github.com/cloudkucooland/esp32-LEAF
+version: 0.0.0
