@@ -1,5 +1,10 @@
-idf_component_register(SRCS "esp32-LEAF.c"
-                    INCLUDE_DIRS "include")
+idf_component_register(SRC_DIRS "LEAF/leaf/Src"
+                    INCLUDE_DIRS "LEAF/leaf")
 
-# cmake_minimum_required(VERSION 4.2)
 # project(esp32-LEAF)
+# add_subdirectory(LEAF)
+
+# add_compile_options("-Wno-unused-variable -Wno-ignored-qualifiers -Wno-incompatible-pointer-types -Wno-missing-field-initializers -Wno-unused-but-set-variable")
+
+ADD_DEFINITIONS("-Wno-unused-variable -Wno-ignored-qualifiers -Wno-incompatible-pointer-types -Wno-missing-field-initializers -Wno-unused-but-set-variable")
+
