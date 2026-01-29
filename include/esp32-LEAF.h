@@ -1,1 +1,1 @@
-void func(void);
+void leaf_noop(void);
