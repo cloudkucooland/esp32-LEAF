@@ -15,4 +15,4 @@ jobs:
         with:
           components: "esp32-LEAF: ."
           namespace: "espressif"
-
+          version: ${{ github.ref_name }}

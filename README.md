@@ -2,7 +2,7 @@ Clone this module with recursive enabled since LEAF is imported as a submodule:
 
 ```git clone --recursive ... ```
 
-This repo is a quick hack to allow including LEAF as an esp32-idf component.
+This repo is a wrapper to allow including LEAF as an esp32-idf component.
 
 Include it in your project by importing it as a submodule into the components directory:
 
