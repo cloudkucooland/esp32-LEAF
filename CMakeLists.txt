@@ -4,5 +4,5 @@ idf_component_register(SRC_DIRS "LEAF/leaf/Src"
 # project(esp32-LEAF)
 # add_subdirectory(LEAF)
 
-ADD_DEFINITIONS("-Wno-unused-variable -Wno-ignored-qualifiers -Wno-incompatible-pointer-types -Wno-missing-field-initializers -Wno-unused-but-set-variable")
+ADD_DEFINITIONS("-Wno-unused-variable -Wno-ignored-qualifiers -Wno-incompatible-pointer-types -Wno-missing-field-initializers -Wno-unused-but-set-variable -Wno-address -Wno-return-type")
 
