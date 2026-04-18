@@ -1,3 +1,5 @@
+![Espressif](https://img.shields.io/badge/espressif-E7352C.svg?style=for-the-badge&logo=espressif&logoColor=white)
+
 Clone this module with recursive enabled since LEAF is imported as a submodule:
 
 ```git clone --recursive ... ```
